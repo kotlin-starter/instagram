@@ -1,6 +1,5 @@
 package com.iamfiro.instagram.ui.theme
 
-import android.app.Activity
 import android.os.Build
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.material3.MaterialTheme
@@ -27,8 +26,8 @@ private val LightColorScheme = lightColorScheme(
     secondary = Green,
     tertiary = Pink40,
     background = White,
-    outline = Black,
-    onSurface = White,
+    outline = Gray10,
+    onSurface = Black,
     onSurfaceVariant = Gray50,
 
     /* Other default colors to override

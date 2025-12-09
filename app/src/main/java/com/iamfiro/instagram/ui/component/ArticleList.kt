@@ -1,6 +1,5 @@
 package com.iamfiro.instagram.ui.component
 
-import android.graphics.drawable.Icon
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -9,19 +8,14 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
-import androidx.compose.foundation.lazy.LazyColumn
 import androidx.compose.runtime.Composable
 import com.iamfiro.instagram.R
 import com.iamfiro.instagram.model.Article
 import com.iamfiro.instagram.model.User
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.Send
-import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.FavoriteBorder
 import androidx.compose.material.icons.filled.MoreVert
-import androidx.compose.material.icons.filled.Star
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
@@ -42,7 +36,7 @@ fun ArticleList() {
             image = R.drawable.ig_article_image,
             like = 3242,
             comment = 412,
-            content = "주디홉스입니다🐰"
+            content = "주디홉스입니다만🐰"
         ),
         Article(
             user = User(username = "ekke.now", profileImage = R.drawable.ig_profile_ekke),
