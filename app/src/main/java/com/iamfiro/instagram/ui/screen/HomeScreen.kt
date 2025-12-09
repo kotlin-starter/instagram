@@ -23,8 +23,8 @@ import com.iamfiro.instagram.ui.component.NavigationBar
 import com.iamfiro.instagram.ui.component.StoryList
 
 @Composable
-fun HomeScreen(innerPadding: PaddingValues) {
-    Scaffold(bottomBar = { NavigationBar() }) {
+fun HomeScreen() {
+    Scaffold(bottomBar = { NavigationBar() }) { innerPadding ->
         LazyColumn(
             modifier = Modifier
                 .fillMaxSize()
